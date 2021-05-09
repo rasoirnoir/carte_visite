@@ -88,20 +88,18 @@ a:hover{
 
 
 .button{
-    display: inline-block;
-    vertical-align: middle;
-    display: inline-block;
+    display: block;
     text-decoration: none;
     padding: 5px;
-    width: 200px;
+    width: 110px;
     height: 60px;
 }
 
 .button *{
-    display: inline-block;
-    margin: auto 5px;
+    display: block;
+    margin: auto;
     text-align: center;
-    vertical-align: middle;
+    /* vertical-align: middle; */
 }
 
 
