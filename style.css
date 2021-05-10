@@ -45,9 +45,9 @@ a:hover{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     margin: 10px auto;
     padding: 10px;
-    width: 600px;
 }
 
 .flex-container-column{
@@ -93,7 +93,7 @@ a:hover{
 
 #img_profil{
     width: 20%;
-    max-width: 500px;
+    max-width: 200px;
     min-width: 100px;
     border-radius: 50%;
 }
