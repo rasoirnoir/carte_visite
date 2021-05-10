@@ -27,9 +27,9 @@ Linkedin, Github…)
 
     -->
 
-    <div id="div_profil" class="jaune">
-        <img src="https://i.ibb.co/swXPVWY/912-profil.png" alt="avatar" id="img_profil">
-        <div id="div_infos">
+    <div id="div_profil" class="jaune flex-container-row">
+        <img src="https://i.ibb.co/swXPVWY/912-profil.png" alt="avatar" id="img_profil" class="flex-item">
+        <div id="div_infos" class="flex-container-column">
             <h3>William NORIS</h3>
             <p>33 ans</p>
             <p>Facteur</p>
@@ -37,7 +37,7 @@ Linkedin, Github…)
     </div>
 
     <div id="div_raisons" class="gris">
-        <p>Candidat au concours "Devenez Développeur Web"</p>
+        <h1>Candidat au concours "Devenez Développeur Web"</h1>
         <ul id="ul_raisons">
             <li>Perspectives d'évolution de carrière et de mobilité</li>
             <li>La réputation de l'école SIMPLON.CO et ses valeurs</li>
@@ -47,19 +47,25 @@ Linkedin, Github…)
     </div>
     
     <div id="div_liens" class="jaune">
-        <ul id="ul_liens">
-            <li>
+        <ul id="ul_liens" class="flex-container-row">
+            <li class="flex-item">
                 <a href="https://www.hackerrank.com/w_noris" target="blank" id="a_hackerrank" class="button">
                     <div>
-                        <img src="icons/Hackerrank-icon-vector-01.svg" alt="" class="icon"><p>HackerRank ></p>
+                        <img src="https://hrcdn.net/community-frontend/assets/favicon-ddc852f75a.png" alt="" class="icon"><p>HackerRank ></p>
                     </div>
                 </a>
             </li>
-            <li>
+            <li class="flex-item">
                 <a href="https://www.github.com/rasoirnoir" target="blank" id="a_github" class="button">
                     <img src="icons/github1600.png" alt="" class="icon"><p>GitHub ></p>
                 </a>
             </li>
+            <li class="flex-item">
+                <a href="https://youtu.be/17Zb1kqoeRM" target="blank" id="a_openclassrooms" class="button">
+                    <img src="icons/oc_icon.png" alt="" class="icon"><p>OC par Youtube ></p>
+                </a>
+            </li>
+            
         </ul>
     </div>    
 </body>
