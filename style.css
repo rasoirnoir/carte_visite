@@ -4,6 +4,21 @@
     --tertiary-color: #ECECEC;
 }
 
+@keyframes fadeInAnimation {
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes popInAnimation{
+    0%{
+        left: -500px;
+    }
+    100%{
+        left: 20px;
+    }
+}
+
 
 *{
     font-family: 'Source Sans Pro', sans-serif;
@@ -90,6 +105,33 @@ a:hover{
 .icon{
     height: 2em;
 }
+
+.fadeIn{
+    opacity: 0;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.animationDelay2{
+    animation-delay: 1s;
+}
+
+.animationDelay3{
+    animation-delay: 2s;
+}
+
+.animationDelay4{
+    animation-delay: 3s;
+}
+
+.popIn{
+    position: relative;
+    animation: popInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
 
 #img_profil{
     width: 20%;
