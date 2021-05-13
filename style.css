@@ -1,7 +1,7 @@
 :root{
-    --primary-color: #FFC900;
+    /* --primary-color: #FFC900; */
+    --primary-color: #ECECEC;
     --secondary-color: #20458F;
-    --tertiary-color: #ECECEC;
 }
 
 @keyframes fadeInAnimation {
@@ -41,7 +41,7 @@ ul{
 
 a{
     border: 4px solid var(--secondary-color);
-    background-color: var(--tertiary-color);
+    background-color: var(--primary-color);
     padding: 10px;
     border-radius: 10px;
     margin: 5px;
@@ -61,7 +61,7 @@ a:hover{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 10px auto;
+    margin: 0px auto;
     padding: 10px;
 }
 
@@ -76,15 +76,6 @@ a:hover{
 .flex-item{
     margin: 5px;
     padding: 5px;
-}
-
-
-.jaune{
-    background-color: var(--primary-color);
-}
-
-.gris{
-    background-color: var(--tertiary-color);
 }
 
 
@@ -133,6 +124,13 @@ a:hover{
 }
 
 
+#div_profil{
+    background-image: url("imgs/proc_50p.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 #img_profil{
     width: 20%;
     max-width: 200px;
@@ -162,6 +160,13 @@ a:hover{
 
 #div_raisons ul li{
     margin: 10px;
+}
+
+#div_liens{
+    background-image: url("imgs/wp2456257_50p.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 
